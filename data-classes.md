@@ -27,7 +27,7 @@ the primary constructor:-->
   * функция `copy()` (см. ниже)
 
 <!--If any of these functions is explicitly defined in the class body or inherited from the base types, it will not be generated.-->
-Если какая-либо из этих функций явно определена в теле класса (или унаследована от родительского класса), то генерироваться она не будет.
+Если какая-либо из этих функций явно определена в теле класса, то генерироваться она не будет.
 
 <!--To ensure consistency and meaningful behavior of the generated code, data classes have to fulfil the following requirements:-->
 Для того, чтобы поведение генерируемого кода соответствовало здравому смыслу, классы данных должны быть оформлены с соблюдением некоторых требований:
